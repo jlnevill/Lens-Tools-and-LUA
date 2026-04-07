@@ -6,7 +6,7 @@ LCP Lens Correction - I spent sometime developing this with Claude, and man, did
 anyhow I've tested this with quite a few LCP files and it worked for a number of lenses and sensor formats. e.g Hasselblad, FF and APSC etc. This produces distortion and vignetting xml snippets that can be placed in lensfun files
 fo use in Darktable.
 
-Two xml files, one for new XCD lenses and the other for the Sigma 17-40 f1.8 on Fuji X system (although not strictly needed,as Darktable reads the embedded data of the Sigma lens).
+Two xml files, one for new XCD lenses and the other for the Sigma 17-40 f1.8 on Fuji X system (although not strictly needed, as Darktable reads the embedded data of the Sigma lens).
 
 Hasselblad Baseline Exposure - this Darktable lua script reads the baselineExposure (0xC62A SRATIONAL) directly from the 3FR binary and adds it (via a button) to the default exposure. 
 This is necessary for images that are taken using HDR mode in the X2DII, as they show underexposure when imported into Darktable.

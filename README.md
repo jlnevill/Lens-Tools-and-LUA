@@ -8,4 +8,6 @@ for use in Darktable.
 
 Two xml files, one for new XCD lenses and the other for the Sigma 17-40 f1.8 on Fuji X system (although not strictly needed, as Darktable reads the embedded data of the Sigma lens).
 
+A Blur Comparison Tool, A multi-lens blur disc and depth-of-field comparison tool that plots sensor-normalised blur against subject distance for any combination of focal length, aperture, and sensor format.
+
 All are offered "as-is", I hope you find them useful!
